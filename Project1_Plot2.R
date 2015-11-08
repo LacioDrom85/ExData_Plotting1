@@ -47,7 +47,7 @@ Final_EPC$GRP <- as.numeric(Final_EPC$GRP)
 #########
 # Plot 2:
 
-png("plot2.png", width=480, height=480, bg = "transparent")
+png("Project1_plot2.png", width=480, height=480, bg = "transparent")
 plot(Final_EPC$GAP~Final_EPC$Datetime, type="l",
      ylab="Global Active Power (kilowatts)", xlab="")
 dev.off()

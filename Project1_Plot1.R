@@ -43,7 +43,7 @@ Final_EPC$GRP <- as.numeric(Final_EPC$GRP)
 
 Global_Activity_Power <- as.numeric(Final_EPC$GAP, dec=".")
 
-png("plot1.png", width=480, height=480, bg = "transparent")
+png("Project1_plot1.png", width=480, height=480, bg = "transparent")
 hist(Global_Activity_Power, col="red",
      main = "Global Activity Power",
      xlab = "Global Activity Power (kilowatts)",

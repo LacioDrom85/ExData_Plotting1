@@ -45,7 +45,7 @@ Final_EPC$GRP <- as.numeric(Final_EPC$GRP)
 #########
 # Plot 3:
 
-png("plot3.png", width=480, height=480, bg = "transparent")
+png("Project1_plot3.png", width=480, height=480, bg = "transparent")
 with(Final_EPC, plot(Datetime,SM1, main="", type="n", xlab = "", ylab = "Energy sub metering"))
 with(Final_EPC, points(Datetime, SM1, col="black", type="l"))
 with(Final_EPC, points(Datetime, SM2, col="red", type="l"))

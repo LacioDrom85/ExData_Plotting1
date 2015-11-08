@@ -45,7 +45,7 @@ Final_EPC$GRP <- as.numeric(Final_EPC$GRP)
 #########
 # Plot 4:
 
-png("plot4.png", width=480, height=480, bg = "transparent")
+png("Project1_plot4.png", width=480, height=480, bg = "transparent")
 par(mfcol = c(2,2), mar = c(4,5,2,1))
 
 with(Final_EPC, {
